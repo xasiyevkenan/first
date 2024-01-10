@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programlaşdırma</title>
+    <link rel="Icon" type="image/x-icon"
+        href="data:image/png;base64,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">
+</head>
+
+<body>
+    <h1>
+        <marquee behavior="alternate" direction="left">Xoş Gəlmisiniz </marquee>
+    </h1>
+    <h1><em>
+            <h1 style="text-align: center;">Programlaşdırma</h1>
+        </em></h1>
+
+    <img width="22%"
+        src="https://th.bing.com/th?q=Learn+Coding&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=2&pid=InlineBlock&mkt=en-WW&cc=AZ&setlang=en&adlt=moderate&t=1&mw=247"
+        alt="">
+    <img width="20%"
+        src="https://th.bing.com/th?q=Coding+Classes&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=2&pid=InlineBlock&mkt=en-WW&cc=AZ&setlang=en&adlt=moderate&t=1&mw=247"
+        alt="">
+    <img width="21%"
+        src="https://th.bing.com/th/id/OIP.hbkQZPQ9-I8HQ7SaOG2ppAHaEP?w=303&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="">
+    <img width="17%" src="https://www.freecodecamp.org/news/content/images/2022/05/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"
+        alt="">
+    <img width="15%"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_HT4-iFBc-ABb6vvQQxZZOlxGRDhm9rLRQ&usqp=CAU"
+        alt="">
+    <br><br><br>
+    <h1><em>
+            <h1 style="text-align: center;">Programlaşdırma Haqqında</h1>
+        </em></h1>
+
+    <p>Proqramlaşdırma (ing. programming) – proqram yaratmaqla bağlı nəzəri və praktiki yaradıcılıq sahəsidir.
+
+        Kompüterin proqram təminatı iki yerə bölünür: sistem və tətbiqi.
+
+        Sistem PT Əməliyyat sistemi Yardımçı proqramlar (NC, WC) Proqramlaşdırma dilləri
+        Tətbiqi PT Verilənlər bazası Mətn redaktorları Qrafiki redaktorlar İstifadəçinin proqramları
+        Kompüterdə məsələnin həlli aşağıdakı mərhələlərdən ibarətdir:
+
+        1. Məsələnin qoyuluşu: məsələ haqqında informasiyanın toplanması; məsələnin şərtinin formalaşdırılması; son
+        məqsədin müəyyən olunması; nəticələrin formasının müəyyən olunması; verilənlərin təsviri (onların tipləri,
+        dəyişmə diapazonu, strukturu və s.).
+
+        2. Məsələnin, modelin analizi və tədqiqi: movcud analoqların analizi; texniki və proqram vasitələrinin analizi;
+        riyazi modelin hazırlanması (işlənilməsi); verilənlərin strukturunun hazırlanması (işlənilməsi).
+
+        3. Alqoritmin hazırlanması (işlənilməsi): alqoritmin layihələndirilməsi üsulunun seşilməsi; alqoritmin yazılış
+        formasının seçilməsi (blok-sxem, psevdokod və s. testin və testləşdirmə üsulunun seçilməsi; alqoritmin
+        layihələndirilməsi.
+
+        4. Proqramlaşdırma: proqramlaşdırma dilinin seçilməsi; verilənlərin təşkili qaydalarının dəqiqləşdirilməsi;
+        seçilmiş proqramlaşdırma dilində alqoritmin yazılması.
+
+        5. Testdən keçirmə və sazlama (otladka): sintaksisin yoxlanılması; məntiqi quruluşun və semantikanın
+        yoxlanılması; test hesablamalar və testin nəticələrinin analizi; proqramın təkmilləşdirilməsi.
+
+        6. Məsəslənin həllinin nəticələrinin analizi və lazim gələrsə riyazi modelin dəqiqləşdirilməsi (2-5
+        mərhələlərinin təkrar ediliməsi).
+
+        7. Proqramın müşayiəti:
+
+        konkret məsəslələrin həlli üçün proqrama əlavələrin edilməsi; həll olunan məsələ, riyazi model, alqoiritm,
+        proqram, testlərin toplanması və istifadəçi üçün sənədləşmənin tərtibi.
+
+        Proqram təminatının istismarı və hazırlanması ilə məşğul olan mütəxəssislərin kateqoriyaları
+
+        Proqramlarım hazırlanması ilə məşğul olan mütəxəssislərin əsas hissəsini proqramçılar təşkil edir. Proqramçılar
+        yaradıcılıq xarakterinə və kvalifikasiya səviyyəsinə görə müxtəlifdir. Sistem proqramçı (system/software
+        programmer, toolsmith)– kompüterin iş qabiliyyətinin təmin olunması və proqramların yerinə yetirilmə mühitinin
+        yaradılması üçün sistem proqram təminatınin hazırlanması, istismarı və müşayiət olunması ilə məşğul olur.
+        Tətbiqi proqramçı (application programmer)– funksional məsələlərin (məsələn: ticarət müəssisəsinin fəaliyyətinin
+        idarə olunması; məhsulun buraxılışının idarə olunması və c.) həlli üçün proqramların hazırlanması və sazlanması
+        ilə məşğul olur. Proqramçı-analitik (programmer-analyst)– bir-birilə bağlı olan proqramlar kompleksinin
+        layihələndirilməsi və analizi ilə məşğul olur. Məsələni qoyan (постановщик) – kompüterdə realizasiyası tələb
+        olunan məsələlərin formal qoyuluşu ilə məşğul olan mütəxəssis. Verilənlər bazasının administratoru – verilənlər
+        bazasının təşkilati dəstəyi ilə məşğul olan mütəxəssis. Şəbəkə administratoru – lokal şəbəkənin təşkilati
+        dəstəyi ilə məşğul olan mütəxəssis. Proqramın əsas istehlakçısı proqramlaşdırma sahəsində mütəxəssis olmayan son
+        istifadəçilərdir (end user). Kompüterdə işləmək üçün xüsusi öyrədilmiş texniki işçilər – operatorlar var ki,
+        onlar proqram yazmırlar, yalnız hazır proqramların kompüterdə işlənilməsini təmin edirlər.</p>
+
+    <br><br>
+    <iframe width="920" height="580" src="https://www.youtube.com/embed/N7ZmPYaXoic" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <iframe width="880" height="500" src="https://www.youtube.com/embed/IJiW_AbawUc" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <h1 style="text-align: center;">Programlaşdırma Haqqında Faktlar</h1>
+    <p>1. Dünyada 8500-ə yaxın proqramlaşdırma dili mövcuddur, lakin ən çox istifadə olunan dillərin sayı 10-dan
+        artıqdır. Bu, tələbatın az olması və nəticədə məhsulun zəif satılması, dil yaradıcıları ilə dil tapa bilməməsi
+        və müxtəlif qüsurlardan qaynaqlanır. Çoxu bu cür düşünür və şərh edir: Pascal və DELPHI – öndədi! Ümumiyyətlə,
+        ən yaxşı proqramlaşdırma dili Hello World sözündən daha əhəmiyyətli bir şey yaza biləcəyiniz bir dil hesab
+        olunur.
+
+        2. Bilirsinizmi, ilk İT mütəxəssisi qadın idi – britaniyalı Ada Lavleys? Məhz o, 19-cu əsrdə analitik aqreqator
+        üçün alqoritm yazan (yəni müasir kompüterin əcdadı) qadın olub. Bu maşın öz dövrünün yeniliyi idi və Bernulli
+        tənliyini həll edə bilirdi, yəni mayenin hərəkətində enerjinin qorunması qanunu hesablayırdı. Böyük bir İT
+        hərəkata başladığını bilməyən Ada Lavleys əslində problemi həll etmək üçün bir sıra əməliyyatlar hazırladı ki,
+        bu da proqram yazılışıdır.
+
+        3. Bəzən insanlar eşidəndə ki, proqramçısan demək olar ki, hər şeyi edə biləcəyinizi düşünür – kompüterin
+        təmirindən tutmuş proqram yazmağa qədər proqramçının ixtisaslaşmasına aid olmayan inanılmaz müxtəlif istəklərlə
+        yanaşırlar. Hər şey – telefonda internet qurmaq və ya planşeti düzəltmək, hətta tozsoranı və televizoru
+        düzəltməyi də təklif edirlər. Unutmayın ki, hər bir insanın, o cümlədən proqramçı da daxil olmaqla öz
+        ixtisaslaşma fərqləri var.
+
+        4. Hazırda İnternetdə “Proqramçılar və dizaynerlər olmadan 15 dəqiqə ərzində özünüzə veb-sayt yaradın!”
+        başlıqlara tez-tez rast gəlinir. Bir çox yeni başlayan veb-masterlər buna aldanır və bundan əziyyət çəkirlər.
+        Saytda oyunlar, video və bir çox effekti olan müxtəlif skriptlər görünməyə başlayır. Yaxşı, sonra nə? Və bu
+        zaman proqramçılar olmadan edə bilməzsiniz: ya skript çökür, ya proqram düzgün şəkildə quraşdırılmayıb. Sən
+        demə, proqramçıları aradan çıxarmaq hələ tezdir.
+
+        5. Dünyada hansı dəyişikliklərin baş verməsindən asılı olmayaraq, proqramçı peşəsinə daima tələbat olacaq. Bəs
+        yaxşı bir proqramıçını necə təyin etmək olar? Yaxşı bir proqramçını sadəcə bir proqramçıdan fərqləndirən bəzi
+        müsbət meyarları sadalayaq:
+
+        Texnoloji yenilikləri izləyir;
+        İş sevinc gətirir və bir hobbini xatırladır;
+        Fikir yarada bilməklə yanaşı, bunu başqalarına da sirayət etdirir;
+        Öz layihəsi olur, bir dənə yox, bir neçə dənə;
+        Zamanla ayaqlaşır, daim öyrənməyə davam edir;
+        Planına çatmaqda israrlı, əzmkar və hətta inadkardır;
+        Həmişə problemlərin həlli üçün yeni yol axtarır;
+        Düşüncələrini düzgün ifadə etməklə yanaşı, dinləməyi bacarır. İnandırmağı bacaran bir səlahiyyətli mütəxəssis
+        nümunəsi göstərir;
+        Proqramlaşdırma sahəsində yaxşı təcrübəyə malikdir və buna görə layiqli nəticəsi var;
+        Müxtəlif sahələrdə geniş dünyagörüşə malikdir;
+        Kollektivdə işləməyi bacarır.
+        6. Dünyanın ən məşhur proqramçıları: macar-amerikan riyaziyyatçısı Con fon Neymandır, ən müasir komputerlərin
+        arxitekturası ilə əlaqələndirilmiş, komputerin yaddaş proqramları və məlumatların birgə saxlanılması onun adı
+        ilə bağlıdır. Boris və Sergey Nurəliyev qardaşları 1992-ci ildə 1C mühasibat proqramı yaratdılar və Alcor MMC 1C
+        serverinin quraşdırılmasını öz üzərinə götürüb. Byörn Straustrup ən çox istifadə olunan proqramlaşdırma
+        dillərindən biri olan C++ proqramlaşdırma dilinin müəllifidir. Linus Torvalds Linux yaradıb – hazırda sərbəst
+        əməliyyat sistemlərindən ən çox yayılmış olan GNU/Linux əməliyyat sistemidir. Bill Qeyts Microsoft
+        texnologiyasının qurucusu və ən böyük səhmdarı olaraq komputer texnologiyaları tarixinə əbədi olaraq öz imzasını
+        yazdırdı. Yevgeni Kasperskiy – rusiyalı proqramçı, informasiya təhlükəsizliyi mütəxəssisi, “Kaspersky Lab”
+        QSC-nin ən böyük səhmdarı və təsisçilərdən biri. İlya Seqaloviç – Yandex axtarış şirkətinin təsisçilərindən
+        biri. Mark Zukerberq dünyaca məşhur və olduqca populyar Facebook sosial şəbəkəsinin yaradıcısıdır. Pavel Durov –
+        VKontakte sosial şəbəkəsinin həmtəsisçisi. İqor Danilov rusiyalı proqramçı, məşhur Dr.Web antivirusunun
+        müəllifi, şirkətin texniki direktoru və qurucusudur.</p>
+    <h1>Proqramlaşdırma öyrənmək üçün saytlar: </h1>
+    <a href="https://www.w3schools.com/">
+        <h1>w3schools</h1>
+    </a>
+   
+    <a href="https://web.dev/learn/html/">
+        <h1>Web.dev</h1>
+    </a>
+</body>
+
+</html>
